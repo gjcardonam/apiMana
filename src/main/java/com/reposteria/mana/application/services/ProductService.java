@@ -1,7 +1,6 @@
 package com.reposteria.mana.application.services;
 
 import com.reposteria.mana.domain.entities.Product;
-import com.reposteria.mana.domain.repositories.ICategoryRepository;
 import com.reposteria.mana.domain.repositories.IProductRepository;
 import com.reposteria.mana.domain.services.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
