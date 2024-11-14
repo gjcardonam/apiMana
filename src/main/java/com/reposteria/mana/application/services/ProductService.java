@@ -15,9 +15,8 @@ public class ProductService implements IProductService {
     private final IProductRepository productRepository;
 
     @Autowired
-    public ProductService(IProductRepository ProductRepository, ICategoryRepository CategoryRepository) {
+    public ProductService(IProductRepository ProductRepository) {
         this.productRepository = ProductRepository;
-        this.categoryRepository = CategoryRepository;
     }
 
     @Override
