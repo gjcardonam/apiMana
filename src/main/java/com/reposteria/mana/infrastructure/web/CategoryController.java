@@ -10,6 +10,7 @@
     import java.util.List;
     import java.util.Optional;
 
+    @CrossOrigin(origins = "https://reposteriamana.onrender.com", allowCredentials = "true", maxAge = 3600)
     @RestController
     @RequestMapping("/api/categories")
     public class CategoryController {
